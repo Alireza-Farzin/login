@@ -1,0 +1,183 @@
+@import url('rest.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button ,input{
+    font-family: 'vazirNormal';
+}
+
+@font-face {
+    font-family: 'vazirNormal';
+    src: url('fonts/vazir.eot');
+    src: url('fonts/vazir.eot?#iefix') format('embedded-opentype'),
+     url('fonts/vazir.woff2') format('woff2'),
+     url('fonts/vazir.woff') format('woff'),
+     url('fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'vazirNormal';
+    background-color:rgb(255,237,225);
+}
+
+#form{
+
+    width: 85%;
+    height: 550px;
+    margin: 50px auto;
+}
+
+
+#form .box{
+    display: flex;
+    height: 550px;
+    -webkit-box-shadow: 6px 9px 10px 1px rgba(56, 53, 53, 0.73); 
+box-shadow: 6px 9px 10px 1px rgba(50, 49, 49, 0.73);
+}
+#form .box .item{
+    
+    padding: 10px;
+    border-radius: 5px;
+    height: 100%;
+
+ 
+}
+
+#form .box .rigte{
+    flex-grow: 2;
+    flex-shrink: 100%;
+    background-color: rgb(255,237,225);
+}
+#form .box  .left{
+    flex-grow: 2;
+    text-align: center;
+    background-color: white;
+    
+}
+
+#form .box  .left .item{
+    padding-top: 80px;
+}
+
+#form .box  .left .item .title{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#form .box  .left .item label{
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    right: 100px;
+    font-size: 10px;
+}
+
+
+#form .box  .left .item #hasto{
+    position: relative;
+    right: 115px;
+}
+#form .box  .left .item .input{
+    width: 300px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(246,248,252);
+    padding: 5px;
+    border-radius: 10px;
+  
+}
+
+#form .box  .left .item a{
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    right: 35px;
+    top: 10px;
+}
+
+#form .box  .left .item .btbn{
+    position: relative;
+    top: 10px;
+    left:35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #000;
+    padding: 4px 15px;
+    cursor: pointer;
+    transition: 0.26s;
+}
+
+#form .box  .left .item .btbn:hover{
+    background-color: rgb(32, 31, 31);
+    transition: 0.26s;
+}
+
+#form .box .rigte .item{
+    padding: 100px 0px 0px 50px;
+}
+
+#form .box .rigte .item .title img{
+    width: 130px;
+    padding: 10px;
+}
+
+#form .box .rigte .item h1{
+    font-size: 30px;
+    padding:15px 0px 15px 0px ;
+}
+
+#form .box .rigte .item .pr{
+    font-size: 15px;
+    padding:5px 0px 5px 0px ;
+}
+
+#form .box .rigte .item .Nie{
+    padding:20px 0px 5px 0px ;
+    font-size: 20px;
+
+}
+
+#form .box .rigte .item .link ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    background-color: rgba(237, 199, 171,0.5);
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.26s;
+}
+
+#form .box .rigte .item .link ul li:hover{
+    background-color: rgb(238, 188, 153);
+    transition: 0.26s;
+}
+#form .box .rigte .item .link ul li a{
+    text-decoration: none;
+    color: rgb(240, 117, 73);
+    
+}
+
+
+
+
+.passVisibl{
+    width: 18px;
+    position: relative;
+    right: 40;
+    top: 7px;
+    cursor: pointer;
+    display:none;
+}
+
+.passVisibl:hover{
+   transition: 0.26s;
+    opacity: 0.6;
+}
